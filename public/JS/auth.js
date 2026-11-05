@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:5000/api/users/";
+const API_URL = "https://ai-workspace-backend-a7rc.onrender.com/api/users/";
 
 // ELEMENTS
 const SidebarLoginButton = document.getElementById("sidebar-LogIn");

@@ -3,7 +3,7 @@
    AI WORKSPACE - COMPLETE API FRONTEND
 ========================================= */
 
-const API_BASE = "http://localhost:5000/api/service";
+const API_BASE = "https://ai-workspace-backend-a7rc.onrender.com/api/service";
 
 // APPLICATION STATE
 let folders = [];
