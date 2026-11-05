@@ -1,0 +1,71 @@
+
+<aside class="sidebar" id="sidebar">
+
+    <div class="sidebar-header">
+        <a href="/" class="brand">
+            <div class="brand-logo">✦</div>
+            <span>AI Workspace</span>
+        </a>
+
+        <button class="close-btn" id="closeSidebar">×</button>
+    </div>
+
+    <div class="sidebar-body">
+
+        <button class="create-folder-btn" id="createFolderBtn">
+            <span>＋</span>
+            Create New Folder
+        </button>
+
+        <div class="nav-group">
+            <p class="nav-heading">MAIN MENU</p>
+
+            <a href="#" class="nav-link active" data-page="dashboard">
+                <span>◈</span> Dashboard
+            </a>
+
+            <a href="#" class="nav-link" data-page="all">
+                <span>◷</span> All Questions
+            </a>
+
+            <a href="#" class="nav-link" data-page="favorites">
+                <span>☆</span> Favorites
+            </a>
+        </div>
+
+        <div class="folder-section">
+
+            <div class="folder-heading">
+                <p class="nav-heading">MY FOLDERS</p>
+
+                <button id="quickFolderBtn" title="Create folder">
+                    +
+                </button>
+            </div>
+
+            <div id="folderList" class="folder-list">
+                <!-- Dynamic folders -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="sidebar-footer" id="sidebar-LogIn">
+        <div class="user-profile">
+
+            <div class="user-avatar">M</div>
+
+            <div class="user-details">
+                <h4>My Account</h4>
+                <p>Free Plan</p>
+            </div>
+
+            <button class="profile-more" id="LoginFirst">•••</button>
+
+        </div>
+    </div>
+
+</aside>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
